@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to AGA Social!"
-date:   2021-04-02 14:01:27 -0400
+title:  "Monetize with AGA Social!"
+date:   2021-04-05 14:01:27 -0400
 categories: jekyll update
 ---
 
