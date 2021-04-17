@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to AGA Social!"
 date:   2021-04-02 14:01:27 -0400
-categories: jekyll update
+categories: aganews
 ---
 
 We are very happy to lauch this venture and become your partner to monetize your content.

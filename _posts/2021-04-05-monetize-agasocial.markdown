@@ -2,7 +2,7 @@
 layout: post
 title:  "Monetize with AGA Social!"
 date:   2021-04-05 14:01:27 -0400
-categories: jekyll update
+categories: aganews
 ---
 
 We are launching our payment collection services for those who want monetize content and get revenue from their knowledge.
