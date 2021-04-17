@@ -20,12 +20,14 @@
 
 title: AGA Social
 email: info@aga.social
-description: >- # We promote and monetize your content. We can help you produce, publish, promote and monetize. 
- We will monetize your content with a network of partners and customers. We will offer your products through ecommerce channels.
+description: >- # We promote and monetize your content. 
+  We can help you produce, publish, promote and monetize. 
+  We will monetize your content with a network of partners and customers. 
+  We will offer your products through ecommerce channels.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username:  agasocial
+github_username:  
 
 # Build settings
 theme: minima

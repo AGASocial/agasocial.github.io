@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+We are a commited team that will help your company to produce, publish, promote and monetize your content.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Using social networks like Instagram, YouTube, TikTok, Facebook, LinkedIn and Twitter, we will commit to make your content useful and relevant.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+We will help you monetize and manage all the payments, providing ecommerce sites, online courses, monetize channels through promotions.
 
+If you are a field expert, we can help you structure a content strategy to start your content generation business.
 
-[jekyll-organization]: https://github.com/jekyll
+Contact us!
