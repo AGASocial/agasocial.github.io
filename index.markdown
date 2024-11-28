@@ -84,7 +84,7 @@ title: "AGA Social - Advanced Technology Solutions"
       <div class="group bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
         <img class="mb-6 w-24 h-24 rounded-full mx-auto shadow-lg" src="/assets/images/aramirez.jpg" alt="Alexander Ramírez">
         <h3 class="text-xl font-bold mb-2">Alexander Ramírez</h3>
-        <p class="text-blue-600 mb-4">Computer Engineer (1997)<br>Master's in Random Models<br>Datacamp author</p>
+        <p class="text-blue-600 mb-4">Computer Engineer (1997)<br>Master's in Random Models<br><a href="https://www.datacamp.com/courses/foundations-of-probability-in-python">Datacamp author</a></p>
         <p class="text-gray-600">Leader in technological innovation with extensive experience leading the development of full-stack applications cloud-native and AI-powered.</p>
       </div>
       <div class="group bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
