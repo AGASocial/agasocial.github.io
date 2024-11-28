@@ -90,7 +90,7 @@ title: "AGA Social - Advanced Technology Solutions"
       <div class="group bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
         <img class="mb-6 w-24 h-24 rounded-full mx-auto shadow-lg" src="/assets/images/gaveho.jpg" alt="Gabriel Vega">
         <h3 class="text-xl font-bold mb-2">Gabriel Vega</h3>
-        <p class="text-blue-600 mb-4">Computer Engineer (2008)</p>
+        <p class="text-blue-600 mb-4">Computer Engineer (2009)</p>
         <p class="text-gray-600">Senior Developer, Banking Software Expert. Develops secure and scalable systems for the financial sector.</p>
       </div>
     </div>
