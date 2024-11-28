@@ -1,48 +1,54 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: AGA Social
 email: info@aga.social
 description: >- # 
-  We promote and monetize your content. 
-  We can help you produce, publish, promote and monetize. 
-  We will monetize your content with a network of partners and customers. 
-  We will offer your products through ecommerce channels.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  AGA Social is an innovative company dedicated to developing artificial intelligence-powered software.
+  We specialize in creating advanced technological solutions that transform the way businesses operate
+  and connect with their customers.
+  Our focus on artificial intelligence allows us to offer products and services that not only optimize
+  processes but also drive efficiency and innovation across various industries.
+default_image: /assets/images/default-social-image.jpg
+baseurl: ""
+url: "https://aga.social"
 twitter_username: 
-github_username:  
+github_username: agasocial
 
-# Build settings
-# theme: minima
+# Language settings
+lang: en
+alternate_languages:
+  - code: es
+    url: /es/
+
+# Theme and brand settings
+theme_color: "#0066cc"
+brand_color: "#0066cc"
+
+# External domains for prefetch
+external_domains:
+  - https://fonts.googleapis.com
+  - https://ajax.googleapis.com
+  - https://cdn.jsdelivr.net
+
+# SEO verification tokens (add your tokens when available)
+#google_site_verification: ""
+#bing_site_verification: ""
+#pinterest_site_verification: ""
+
+# Organization info for Schema.org
+organization:
+  name: AGA Social
+  legal_name: AGA Social LLC
+  url: https://aga.social
+  logo: /assets/images/logo-w.png
+  founding_date: 2022
+  founders:
+    - name: Alexander Ramírez
+      title: Computer Engineer
+    - name: Gabriel Vega
+      title: Computer Engineer
+
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -50,4 +56,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules/
-  - docs
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
