@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: AGA Social, LLC
+title: AGA Social
 email: info@aga.social
 description: >- # 
   We promote and monetize your content. 
