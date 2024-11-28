@@ -2,7 +2,7 @@
 Keyword Planner or SEMrush.
 
 2. On-Page SEO:
-   - Optimize title tags, meta descriptions, and headers with your target keywords.
+   - Optimize title tags, meta descriptions, and headers with your target keywords. (DONE)
    - Ensure your content is high-quality, informative, and relevant to the keywords.
    - Use alt tags for images and ensure they are optimized for search engines.
 
@@ -84,7 +84,7 @@ Keyword Planner or SEMrush.
    - Include local keywords and create location-specific content.
 
 7. Analytics and Monitoring:
-   - Use tools like Google Analytics (DONE) and Google Search Console to monitor your website's performance.
+   - Use tools like Google Analytics (DONE) and Google Search Console (DONE) to monitor your website's performance.
    - Regularly review and adjust your SEO strategy based on the data.
 
 8. Social Media Integration:
