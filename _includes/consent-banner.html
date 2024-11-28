@@ -154,24 +154,28 @@
     }
 
     function applyPreferences(preferences) {
-        // Example: Handle analytics consent
-        if (preferences.analytics) {
-            // Enable analytics (e.g., Google Analytics)
-            if (typeof gtag === 'function') {
-                gtag('consent', 'update', {
-                    'analytics_storage': 'granted'
-                });
+        // Push consent update to dataLayer for GTM
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            'event': 'consent_update',
+            'consent': {
+                'ad_storage': preferences.marketing ? 'granted' : 'denied',
+                'analytics_storage': preferences.analytics ? 'granted' : 'denied',
+                'functionality_storage': preferences.essential ? 'granted' : 'denied',
+                'personalization_storage': preferences.marketing ? 'granted' : 'denied',
+                'security_storage': 'granted'
             }
-        }
+        });
 
-        // Example: Handle marketing consent
-        if (preferences.marketing) {
-            // Enable marketing cookies
-            if (typeof gtag === 'function') {
-                gtag('consent', 'update', {
-                    'ad_storage': 'granted'
-                });
-            }
+        // Also update Google Analytics consent if present
+        if (typeof gtag === 'function') {
+            gtag('consent', 'update', {
+                'ad_storage': preferences.marketing ? 'granted' : 'denied',
+                'analytics_storage': preferences.analytics ? 'granted' : 'denied',
+                'functionality_storage': preferences.essential ? 'granted' : 'denied',
+                'personalization_storage': preferences.marketing ? 'granted' : 'denied',
+                'security_storage': 'granted'
+            });
         }
     }
 
