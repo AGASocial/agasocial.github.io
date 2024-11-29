@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Términos y condiciones
-permalink: /hazpanencasa/termsandconditions_es/
 ---
 
 <h4 align="center">AGA Social LLC ("AGA")</h4>

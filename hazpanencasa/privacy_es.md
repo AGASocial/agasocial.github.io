@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Política de privacidad
-permalink: /hazpanencasa/privacy_es/
 ---
 
 El Usuario de la Aplicación conoce que los datos provistos directamente o indirectamente a través de los dispositivos que acceden a la Aplicación se pueden utilizar con fines de personalización y mejoramiento del servicio provisto por AGA Social LLC.
