@@ -25,4 +25,5 @@ features:
   - Version tracking with diffs
   - Version rollback functionality
 live-demo: 
+published: false
 ---

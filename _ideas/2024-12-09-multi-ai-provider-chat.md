@@ -22,4 +22,5 @@ features:
   - Multiple chat management
   - Custom prompt handling
 live-demo: https://venerable-narwhal-fc12b4.netlify.app
+published: false
 ---

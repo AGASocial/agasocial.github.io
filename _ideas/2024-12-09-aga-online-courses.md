@@ -25,5 +25,5 @@ features:
       - Intuitive navigation flow
       - Modern responsive design with Tailwind CSS
       - Seamless educational experience
-live-demo: https://agaonlinecourses.netlify.app/
+live-demo: https://coursesplatform.netlify.app/
 ---

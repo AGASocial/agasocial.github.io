@@ -23,5 +23,6 @@ features:
       - Local API integration
       - WebSocket communication
       - Express server setup
-live-demo: 
+live-demo: https://openaichats.netlify.app/
+published: false
 ---

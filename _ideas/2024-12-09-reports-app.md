@@ -26,6 +26,7 @@ features:
     - Candidates
     - Applications
 live-demo: 
+published: false
 ---
 
 A modern reports application with a focus on company and candidate management.

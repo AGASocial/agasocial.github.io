@@ -38,4 +38,5 @@ features:
       - Event feedback
       - General opinion gathering
 live-demo:
+published: false
 ---

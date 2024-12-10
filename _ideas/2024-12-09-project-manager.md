@@ -1,9 +1,9 @@
 ---
 layout: idea
-title: "Project Manager"
+title: "Bolt Projects"
 date: 2024-12-09 05:55:55 -0600
 categories: projects
-description: "A project management application."
+description: "A Bolt project management application that allows users to review prompts to create Bolt.new apps."
 image: /assets/images/ideas/2024-12-09-project-manager.png
 order: 6
 status: launched

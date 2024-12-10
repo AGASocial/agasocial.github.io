@@ -24,4 +24,5 @@ features:
       - Like/dislike feedback system
       - Personalized recommendations
 live-demo:
+published: false
 ---
