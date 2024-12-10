@@ -33,6 +33,12 @@ external_domains:
 #bing_site_verification: ""
 #pinterest_site_verification: ""
 
+# Collections
+collections:
+  ideas:
+    output: true
+    permalink: /ideas/:path/
+
 # Organization info for Schema.org
 organization:
   name: AGA Social
