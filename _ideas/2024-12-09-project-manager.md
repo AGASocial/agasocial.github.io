@@ -1,12 +1,12 @@
 ---
 layout: idea
-title: "Bolt Projects"
+title: "Proyectos Bolt"
 date: 2024-12-09 05:55:55 -0600
 categories: projects
-description: "A Bolt project management application that allows users to review prompts to create Bolt.new apps."
+description: "Una aplicación de gestión de proyectos Bolt que permite a los usuarios revisar prompts para crear aplicaciones Bolt.new."
 image: /assets/images/ideas/2024-12-09-project-manager.png
 order: 6
-status: launched
+status: En producción
 tech_stack:
   - TypeScript
   - React
@@ -17,8 +17,8 @@ updated_at: 2024-12-09
 categories: [Web Development, Events]
 tags: [ai, events, recommendations, feedback]
 features:
-  - Built with Angular
-  - OpenAI integration
-  - Modern chat interface
+  - "Construido con Angular"
+  - "Integración con OpenAI"
+  - "Interfaz de chat moderna"
 live-demo: https://boltprojects.netlify.app/
 ---

@@ -1,10 +1,10 @@
 ---
 layout: idea
-title: "ChatGPT Clone"
-description: "A visually attractive ChatGPT clone that integrates with a local API, featuring modern UI/UX design and real-time chat interface."
+title: "Clon de ChatGPT"
+description: "Un clon de ChatGPT visualmente atractivo que se integra con una API local, con un diseño moderno de UI/UX y una interfaz de chat en tiempo real."
 image: /assets/images/placeholder-screenshot.svg
 order: 3
-status: launched
+status: En producción
 tech_stack:
   - React
   - Node.js
@@ -15,14 +15,14 @@ updated_at: 2024-12-09
 categories: [Web Development, AI]
 tags: [chatgpt, api, real-time, chat]
 features:
-  - User Interface:
-      - Modern UI/UX design
-      - Real-time chat interface
-      - ChatGPT-like experience
-  - Backend Integration:
-      - Local API integration
-      - WebSocket communication
-      - Express server setup
+  - "Interfaz de Usuario:
+      - Diseño moderno UI/UX
+      - Interfaz de chat en tiempo real
+      - Experiencia similar a ChatGPT"
+  - "Integración Backend:
+      - Integración API local
+      - Comunicación WebSocket
+      - Configuración del servidor Express"
 live-demo: https://openaichats.netlify.app/
 published: false
 ---

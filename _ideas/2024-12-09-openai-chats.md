@@ -1,12 +1,12 @@
 ---
 layout: idea
-title: "OpenAI Chats"
+title: "Chats con OpenAI"
 date: 2024-12-09 05:55:55 -0600
 categories: projects
-description: "An Angular-based chat application for interacting with OpenAI models."
+description: "Una aplicación de chat basada en Angular para interactuar con los modelos de OpenAI."
 image: /assets/images/ideas/2024-12-09-openai-chats.png
 order: 6
-status: launched
+status: En producción
 tech_stack:
   - TypeScript
   - React
@@ -17,8 +17,8 @@ updated_at: 2024-12-09
 categories: [Web Development, Events]
 tags: [ai, events, recommendations, feedback]
 features:
-  - Built with Angular
-  - OpenAI integration
-  - Modern chat interface
+  - "Construido con Angular"
+  - "Integración con OpenAI"
+  - "Interfaz de chat moderna"
 live-demo: https://openaichats.netlify.app/
 ---

@@ -1,10 +1,10 @@
 ---
 layout: idea
-title: "TypeScript Learning"
-description: "A comprehensive platform for learning TypeScript, featuring interactive lessons and practical examples."
+title: "Aprendizaje de TypeScript"
+description: "Una plataforma integral para aprender TypeScript, con lecciones interactivas y ejemplos prácticos."
 image: /assets/images/ideas/2024-12-09-typescript-learning.png
 order: 6
-status: launched
+status: En producción
 tech_stack:
   - TypeScript
   - React
@@ -15,8 +15,8 @@ updated_at: 2024-12-09
 categories: [Web Development, Events]
 tags: [ai, events, recommendations, feedback]
 features:
-  - Built with Angular
-  - OpenAI integration
-  - Modern chat interface
+  - "Construido con Angular"
+  - "Integración con OpenAI"
+  - "Interfaz de chat moderna"
 live-demo: https://typescriptlearn.netlify.app
 ---

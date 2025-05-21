@@ -7,12 +7,10 @@ permalink: /ideas/
 <div class="container mx-auto px-4 py-24 bg-white py-16">
   <div class="container mx-auto px-4">
     <div class="max-w-5xl mx-auto">
-      
       <div class="text-center mb-16">
         <h2 class="text-3xl md:text-4xl font-bold mb-4">Ideas</h2>
-        <p class="text-gray-600 max-w-2xl mx-auto">Explore our latest thoughts, innovations, and creative solutions in technology and business.</p>
+        <p class="text-gray-600 max-w-2xl mx-auto">Explora nuestros últimos pensamientos, innovaciones y soluciones creativas en tecnología y negocios.</p>
       </div>
-      
       <div class="prose prose-blue max-w-none">
         <!-- Ideas Content Section -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -24,8 +22,8 @@ permalink: /ideas/
               <img src="{{ idea.image }}" alt="{{ idea.title }}" class="w-full h-48 object-cover">
               <div class="p-6">
                 <div class="flex justify-between items-start mb-2">
-                  <h3 class="text-xl font-semibold text-gray-900">{{ idea.title }}</h3>
-                  <span class="px-2 py-1 text-sm rounded-full {% if idea.status == 'launched' %}bg-green-100 text-green-800{% elsif idea.status == 'development' %}bg-blue-100 text-blue-800{% else %}bg-gray-100 text-gray-800{% endif %}">
+                  <h3 class="text-xl font-semibold text-primary-dark">{{ idea.title }}</h3>
+                  <span class="px-2 py-1 text-sm rounded-full {% if idea.status == 'En producción' %}bg-green-100 text-green-800{% elsif idea.status == 'En desarrollo' %}bg-blue-100 text-blue-800{% else %}bg-gray-100 text-gray-800{% endif %}">
                     {{ idea.status | capitalize }}
                   </span>
                 </div>

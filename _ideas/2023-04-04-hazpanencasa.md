@@ -1,10 +1,10 @@
 ---
 layout: idea
 title: hazpanencasa
-description: A mobile app that helps you bake delicious bread at home with easy-to-follow recipes and step-by-step instructions.
+description: Una aplicación móvil que te ayuda a hornear delicioso pan en casa con recetas fáciles de seguir e instrucciones paso a paso.
 image: /assets/images/ideas/2023-04-04-hazpanencasa.png
 order: 1
-status: launched
+status: En producción
 tech_stack:
   - Ionic
   - Firebase
@@ -23,4 +23,4 @@ features:
 live-demo:
 ---
 
-hazpanencasa is a comprehensive mobile application designed to make home bread baking accessible to everyone. With an intuitive interface and detailed step-by-step instructions, users can create delicious homemade bread with confidence.
+hazpanencasa es una aplicación móvil integral diseñada para hacer que la elaboración de pan en casa sea accesible para todos. Con una interfaz intuitiva e instrucciones detalladas paso a paso, los usuarios pueden crear delicioso pan casero con confianza.

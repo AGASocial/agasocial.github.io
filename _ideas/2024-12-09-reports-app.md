@@ -1,12 +1,12 @@
 ---
 layout: idea
-title: "Reports App"
+title: "Aplicación de Reportes"
 date: 2024-12-09 05:55:55 -0600
 categories: projects
-description: "A modern reports application with a focus on company and candidate management."
+description: "Una aplicación moderna de reportes con enfoque en la gestión de empresas y candidatos."
 image: /assets/images/placeholder-screenshot.svg
 order: 6
-status: development
+status: En desarrollo
 tech_stack:
   - TypeScript
   - React
@@ -17,29 +17,29 @@ updated_at: 2024-12-09
 categories: [Web Development, Events]
 tags: [ai, events, recommendations, feedback]
 features:
-  - Modern UI with Tailwind CSS
-  - Navigation bar and sidebar
-  - Local storage caching
-  - Modules:
-    - Companies
-    - Job posts
-    - Candidates
-    - Applications
+  - "Interfaz de Usuario Moderna con Tailwind CSS"
+  - "Barra de navegación y barra lateral"
+  - "Almacenamiento en caché local"
+  - "Módulos:
+    - Empresas
+    - Ofertas de trabajo
+    - Candidatos
+    - Aplicaciones"
 live-demo: 
 published: false
 ---
 
-A modern reports application with a focus on company and candidate management.
+Una aplicación moderna de reportes con enfoque en la gestión de empresas y candidatos.
 
 ## Features
-- Modern UI with Tailwind CSS
-- Navigation bar and sidebar
-- Local storage caching
-- Modules:
-  - Companies
-  - Job posts
-  - Candidates
-  - Applications
+- Interfaz de Usuario Moderna con Tailwind CSS
+- Barra de navegación y barra lateral
+- Almacenamiento en caché local
+- Módulos:
+  - Empresas
+  - Ofertas de trabajo
+  - Candidatos
+  - Aplicaciones
 
 ## Links
 - [Project URL](https://bolt.new/~/sb1-bkxwuk)

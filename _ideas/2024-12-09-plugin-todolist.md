@@ -1,11 +1,11 @@
 ---
 layout: idea
-title: "Plugin TodoList"
+title: "Plugin Lista de Tareas"
 date: 2024-12-09 05:55:55 -0600
-description: "A plugin-based todo list application with extensible architecture and modern task management features."
+description: "Una aplicación de lista de tareas basada en plugins con arquitectura extensible y características modernas de gestión de tareas."
 image: /assets/images/placeholder-screenshot.svg
 order: 6
-status: development
+status: En desarrollo
 tech_stack:
   - TypeScript
   - React
@@ -16,13 +16,13 @@ updated_at: 2024-12-09
 categories: [Development, Productivity]
 tags: [plugin, todo, typescript, task-management]
 features:
-  - Core Functionality:
-      - Task creation and management
-      - Plugin system architecture
-      - Custom plugin support
-  - Task Management:
-      - Priority levels
-      - Due dates
-      - Categories and tags
+  - "Funcionalidad Principal:
+      - Creación y gestión de tareas
+      - Arquitectura de sistema de plugins
+      - Soporte para plugins personalizados"
+  - "Gestión de Tareas:
+      - Niveles de prioridad
+      - Fechas de vencimiento
+      - Categorías y etiquetas"
 live-demo: 
 ---

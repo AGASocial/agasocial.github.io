@@ -1,12 +1,12 @@
 ---
 layout: idea
-title: "Software Specifications AI Assistant"
+title: "Asistente IA para Especificaciones de Software"
 date: 2024-12-09 05:55:55 -0600
 categories: projects
-description: "A software that allows you to register and manage software specifications with AI assistance."
+description: "Un software que permite registrar y gestionar especificaciones de software con asistencia de IA."
 image: /assets/images/placeholder-screenshot.svg
 order: 6
-status: development
+status: En desarrollo
 tech_stack:
   - TypeScript
   - React
@@ -17,13 +17,13 @@ updated_at: 2024-12-09
 categories: [Web Development, Events]
 tags: [ai, events, recommendations, feedback]
 features:
-  - Project CRUD operations
-  - Markdown editor for specifications
-  - AI enhancement using GPT-4
-  - Encrypted local storage
-  - Import/export capabilities
-  - Version tracking with diffs
-  - Version rollback functionality
+  - "Operaciones CRUD para proyectos"
+  - "Editor Markdown para especificaciones"
+  - "Mejora con IA usando GPT-4"
+  - "Almacenamiento local encriptado"
+  - "Capacidades de importación/exportación"
+  - "Seguimiento de versiones con diferencias"
+  - "Funcionalidad de reversión de versiones"
 live-demo: 
 published: false
 ---

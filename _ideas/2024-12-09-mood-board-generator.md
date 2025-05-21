@@ -1,12 +1,12 @@
 ---
 layout: idea
-title: "Mood Board Generator"
+title: "Generador de Tableros de Ánimo (Mood Board)"
 date: 2024-12-09 05:55:55 -0600
 categories: projects
-description: "Create an MVP for mood tracking and analysis. The component can be embedded in websites for mood registration. Features include data access for companies, market studies, and informal voting capabilities."
+description: "Crear un MVP para el seguimiento y análisis del estado de ánimo. El componente se puede incrustar en sitios web para el registro del estado de ánimo. Las características incluyen acceso a datos para empresas, estudios de mercado y capacidades de votación informal."
 image: /assets/images/placeholder-screenshot.svg
 order: 6
-status: launched
+status: En producción
 tech_stack:
   - TypeScript
   - React
@@ -17,26 +17,26 @@ updated_at: 2024-12-09
 categories: [Web Development, Events]
 tags: [ai, events, recommendations, feedback]
 features:
-  - Board Management:
-      - Create and share mood boards
-      - Private/public board options
-      - Web embedding capabilities
-  - Tracking & Analytics:
-      - Time-based tracking
-      - Company analytics and statistics
-      - Market research data
-  - Mobile Features:
-      - Mobile app with mood faces
-      - QR code integration
-      - Contact integration for sharing
-  - Integration:
-      - API for board voting
-      - Restaurant/store reviews
-      - Movie/program ratings
-  - Use Cases:
-      - Market research
-      - Event feedback
-      - General opinion gathering
+  - "Gestión de Tableros:
+      - Crear y compartir tableros de ánimo
+      - Opciones de tableros privados/públicos
+      - Capacidades de incrustación web"
+  - "Seguimiento y Analíticas:
+      - Seguimiento basado en el tiempo
+      - Analíticas y estadísticas de la empresa
+      - Datos de investigación de mercado"
+  - "Características Móviles:
+      - Aplicación móvil con caras de estado de ánimo
+      - Integración de códigos QR
+      - Integración de contactos para compartir"
+  - "Integración:
+      - API para votación en tableros
+      - Reseñas de restaurantes/tiendas
+      - Calificaciones de películas/programas"
+  - "Casos de Uso:
+      - Investigación de mercado
+      - Retroalimentación de eventos
+      - Recopilación de opiniones generales"
 live-demo:
 published: false
 ---

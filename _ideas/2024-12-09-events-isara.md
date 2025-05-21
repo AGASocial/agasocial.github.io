@@ -1,10 +1,10 @@
 ---
 layout: idea
-title: "Events IsaRa"
-description: "A public events platform with AI-powered recommendations and user feedback system, built with modern web technologies."
+title: "Eventos IsaRa"
+description: "Una plataforma de eventos públicos con recomendaciones impulsadas por IA y sistema de retroalimentación del usuario, construida con tecnologías web modernas."
 image: /assets/images/placeholder-screenshot.svg
 order: 5
-status: launched
+status: En producción
 tech_stack:
   - React
   - Firebase
@@ -15,14 +15,14 @@ updated_at: 2024-12-09
 categories: [Web Development, Events]
 tags: [ai, events, recommendations, feedback]
 features:
-  - Event Management:
-      - Public event listings
-      - AI-powered event recommendations
-      - Event details and scheduling
-  - User Interaction:
-      - User authentication
-      - Like/dislike feedback system
-      - Personalized recommendations
+  - "Gestión de Eventos:
+      - Listados de eventos públicos
+      - Recomendaciones de eventos impulsadas por IA
+      - Detalles y programación de eventos"
+  - "Interacción del Usuario:
+      - Autenticación de usuarios
+      - Sistema de retroalimentación de me gusta/no me gusta
+      - Recomendaciones personalizadas"
 live-demo:
 published: false
 ---

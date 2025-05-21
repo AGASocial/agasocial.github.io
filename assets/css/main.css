@@ -2,8 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-primary-dark: #1f4953;
+  --color-primary-gold: #Ccac62;
+  --color-background-light: #F8F7F2;
+  /* You can add more shades or secondary colors here if needed */
+}
+
 @layer components {
   .container {
     @apply max-w-4xl mx-auto px-4;
+  }
+
+  .header-link {
+    color: var(--color-primary-dark);
+    @apply transition duration-300;
+  }
+  .header-link:hover {
+    color: var(--color-primary-gold);
+  }
+
+  .header-button {
+    background-color: var(--color-primary-gold);
+    color: var(--color-primary-dark);
+    @apply text-white px-4 py-2 rounded-full transition duration-300;
+  }
+  .header-button:hover {
+    background-color: var(--color-primary-dark);
+    color: var(--color-primary-gold);
+  }
+
+  .mobile-menu-link {
+    color: var(--color-primary-dark);
+    @apply block px-3 py-2 rounded-md text-base font-medium transition duration-300;
+  }
+  .mobile-menu-link:hover {
+    color: var(--color-primary-gold);
+    @apply bg-gray-100; /* Or a new light hover color if defined */
+  }
+
+  .footer-link {
+    color: var(--color-background-light);
+    @apply transition duration-300;
+  }
+  .footer-link:hover {
+    color: var(--color-primary-gold);
+  }
+
+  .consent-learn-more-link {
+    color: var(--color-primary-gold);
+    @apply underline;
+  }
+  .consent-learn-more-link:hover {
+    color: var(--color-primary-dark);
+  }
+
+  .consent-preferences-button {
+    color: var(--color-primary-dark);
+    background-color: #e0e0e0; /* Using a neutral gray for now */
+    @apply px-4 py-2 text-sm font-medium rounded-md transition-colors;
+  }
+  .consent-preferences-button:hover {
+    background-color: #bdbdbd; /* Darker neutral gray for hover */
+  }
+
+   .modal-close-button {
+    color: var(--color-primary-dark);
+    @apply transition-colors;
+  }
+  .modal-close-button:hover {
+    color: var(--color-primary-gold);
   }
 }

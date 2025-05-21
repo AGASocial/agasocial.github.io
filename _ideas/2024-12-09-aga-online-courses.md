@@ -1,10 +1,10 @@
 ---
 layout: idea
-title: "AGA Online Courses"
-description: "AGA Online Courses is a modern online learning platform built with a focus on user experience and security."
+title: "Cursos AGA Online"
+description: "Cursos AGA Online es una plataforma moderna de aprendizaje en línea construida con enfoque en la experiencia de usuario y la seguridad."
 image: /assets/images/ideas/2024-12-09-aga-online-courses.png
 order: 1
-status: development
+status: En desarrollo
 tech_stack:
   - JavaScript
   - Firebase
@@ -15,15 +15,15 @@ updated_at: 2024-12-09
 categories: [Web Development, Education]
 tags: [firebase, tailwind, authentication, education]
 features:
-  - Authentication System:
-      - Email and password registration
-      - User-friendly login interface with password visibility toggle
-      - Password recovery functionality
-      - Secure credential management using environment variables
-  - User Experience:
-      - Clean, minimalist signup interface
-      - Intuitive navigation flow
-      - Modern responsive design with Tailwind CSS
-      - Seamless educational experience
+  - Sistema de Autenticación:
+      - Registro con correo electrónico y contraseña
+      - Interfaz de inicio de sesión intuitiva con opción para mostrar/ocultar contraseña
+      - Funcionalidad de recuperación de contraseña
+      - Gestión segura de credenciales usando variables de entorno
+  - Experiencia de Usuario:
+      - Interfaz de registro limpia y minimalista
+      - Flujo de navegación intuitivo
+      - Diseño responsivo moderno con Tailwind CSS
+      - Experiencia educativa fluida
 live-demo: https://cursos.aga.social/
 ---

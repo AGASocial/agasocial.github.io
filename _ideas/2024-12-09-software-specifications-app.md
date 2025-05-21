@@ -1,11 +1,11 @@
 ---
 layout: idea
-title: "Software Specifications App"
+title: "Especificaciones de Software"
 date: 2024-12-09 05:55:55 -0600
-description: "A comprehensive platform for managing software project specifications with modern project management features."
+description: "Una plataforma integral para gestionar especificaciones de proyectos de software con características modernas de gestión de proyectos."
 image: /assets/images/placeholder-screenshot.svg
 order: 6
-status: launched
+status: En producción
 tech_stack:
   - TypeScript
   - React
@@ -16,13 +16,13 @@ updated_at: 2024-12-09
 categories: [Development, Project Management]
 tags: [typescript, specifications, crud, project-management]
 features:
-  - Project Management:
-      - Project CRUD operations
-      - Project metadata management
-      - Version control integration
-  - Specification Tools:
-      - Rich text editor
-      - Document templates
-      - Export functionality
+  - "Gestión de Proyectos:
+      - Operaciones CRUD para proyectos
+      - Gestión de metadatos del proyecto
+      - Integración de control de versiones"
+  - "Herramientas de Especificación:
+      - Editor de texto enriquecido
+      - Plantillas de documentos
+      - Funcionalidad de exportación"
 live-demo: https://projectspecifications.netlify.app/
 ---
