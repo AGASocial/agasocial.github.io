@@ -100,30 +100,6 @@ type: website
   </div>
 </div>
 
-<!-- Founders Section -->
-<div class="bg-gray-50 py-24">
-  <div class="container mx-auto px-4">
-    <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-bold mb-4">Nuestros Fundadores</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto">Líderes visionarios con décadas de experiencia en tecnología e innovación</p>
-    </div>
-    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-      <div class="group bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-        <img class="mb-6 w-24 h-24 rounded-full mx-auto shadow-lg" src="/assets/images/aramirez-s.jpg" alt="Alexander Ramírez">
-        <h3 class="text-xl font-bold mb-2">Alexander Ramírez</h3>
-        <p class="text-primary-dark mb-4">Ingeniero en Computación (1997)<br>Maestría en Modelos Aleatorios<br><a href="https://www.datacamp.com/courses/foundations-of-probability-in-python" class="text-primary-gold hover:underline">Autor en Datacamp</a></p>
-        <p class="text-gray-600">Ha ayudado a decenas de empresas a automatizar sus procesos y reducir costos hasta en 40%. Especialista en construir sistemas que generan resultados reales, no solo código.</p>
-      </div>
-      <div class="group bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-        <img class="mb-6 w-24 h-24 rounded-full mx-auto shadow-lg" src="/assets/images/gaveho.jpg" alt="Gabriel Vega">
-        <h3 class="text-xl font-bold mb-2">Gabriel Vega</h3>
-        <p class="text-primary-dark mb-4">Ingeniero en Computación (2009)</p>
-        <p class="text-gray-600">Ha desarrollado sistemas que procesan millones de transacciones diarias. Expert en crear software que escala sin límites y que realmente funciona cuando necesitas que funcione.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- Results Section -->
 <div class="bg-gray-50 py-24">
   <div class="container mx-auto px-4">
@@ -233,6 +209,30 @@ type: website
     </div>
     <div class="text-center mt-12">
       <a href="#contact" class="inline-block transform hover:scale-105 transition-transform duration-300 px-8 py-4 rounded-full font-semibold shadow-lg" style="background-color: var(--color-primary-dark); color: var(--color-background-light);">Reserva tu Consulta Gratuita</a>
+    </div>
+  </div>
+</div>
+
+<!-- Founders Section -->
+<div class="bg-gray-50 py-24">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Nuestros Fundadores</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">Líderes visionarios con décadas de experiencia en tecnología e innovación</p>
+    </div>
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div class="group bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+        <img class="mb-6 w-24 h-24 rounded-full mx-auto shadow-lg" src="/assets/images/aramirez-s.jpg" alt="Alexander Ramírez">
+        <h3 class="text-xl font-bold mb-2">Alexander Ramírez</h3>
+        <p class="text-primary-dark mb-4">Ingeniero en Computación (1997)<br>Maestría en Modelos Aleatorios<br><a href="https://www.datacamp.com/courses/foundations-of-probability-in-python" class="text-primary-gold hover:underline">Autor en Datacamp</a></p>
+        <p class="text-gray-600">Ha ayudado a decenas de empresas a automatizar sus procesos y reducir costos hasta en 40%. Especialista en construir sistemas que generan resultados reales, no solo código.</p>
+      </div>
+      <div class="group bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+        <img class="mb-6 w-24 h-24 rounded-full mx-auto shadow-lg" src="/assets/images/gaveho.jpg" alt="Gabriel Vega">
+        <h3 class="text-xl font-bold mb-2">Gabriel Vega</h3>
+        <p class="text-primary-dark mb-4">Ingeniero en Computación (2009)</p>
+        <p class="text-gray-600">Ha desarrollado sistemas que procesan millones de transacciones diarias. Expert en crear software que escala sin límites y que realmente funciona cuando necesitas que funcione.</p>
+      </div>
     </div>
   </div>
 </div>
