@@ -8,7 +8,7 @@
  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
  <!-- add tailwind css -->
  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
- <link rel="stylesheet" href="{{ " /assets/css/main.css" | relative_url }}">
+ <link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}">
  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 
@@ -18,8 +18,8 @@
  <header class="fixed w-full shadow-sm z-50" style="background-color: var(--color-background-light);">
   <div class="container mx-auto px-4">
    <div class="flex items-center justify-between h-16">
-    <a href="{{ " /" | relative_url }}" class="h-12"> <!-- Adjust height as needed -->
-     <img src="{{ " /assets/images/logo-h-aga-social-full.png" | relative_url }}" alt="{{ site.title }} logo"
+    <a href="{{ "/" | relative_url }}" class="h-12"> <!-- Adjust height as needed -->
+     <img src="{{ "/assets/images/logo-h-aga-social-full.png" | absolute_url }}" alt="{{ site.title }} logo"
       class="h-full w-auto">
     </a>
 
@@ -38,20 +38,22 @@
 
     <!-- Menú de escritorio -->
     <nav class="hidden md:flex md:items-center md:space-x-8">
-     <a href="{{ " /" | relative_url }}" class="header-link">Inicio</a>
-     <a href="{{ " /" | relative_url }}#expertise" class="header-link">Servicios</a>
+     <a href="{{ "/" | relative_url }}" class="header-link">Inicio</a>
+     <a href="{{ "/" | relative_url }}#expertise" class="header-link">Servicios</a>
      <a href="/ideas" class="header-link">Ideas</a>
-     <a href="{{ " /" | relative_url }}#contact" class="header-link">Contacto</a>
+     <a href="/about" class="header-link">Nosotros</a>
+     <a href="{{ "/" | relative_url }}#contact" class="header-link">Contacto</a>
     </nav>
    </div>
 
    <!-- Menú móvil -->
    <div x-show="isOpen" class="md:hidden" id="mobile-menu" style="display: none;">
     <div class="px-2 pt-2 pb-3 space-y-1">
-     <a href="{{ " /" | relative_url }}" class="mobile-menu-link">Inicio</a>
-     <a href="{{ " /" | relative_url }}#expertise" class="mobile-menu-link">Servicios</a>
+     <a href="{{ "/" | relative_url }}" class="mobile-menu-link">Inicio</a>
+     <a href="{{ "/" | relative_url }}#expertise" class="mobile-menu-link">Servicios</a>
      <a href="/ideas" class="mobile-menu-link">Ideas</a>
-     <a href="{{ " /" | relative_url }}#contact" class="mobile-menu-link">Contacto</a>
+     <a href="/about" class="mobile-menu-link">Nosotros</a>
+     <a href="{{ "/" | relative_url }}#contact" class="mobile-menu-link">Contacto</a>
     </div>
    </div>
   </div>
@@ -65,7 +67,7 @@
   <div class="container mx-auto px-4 py-12">
    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
     <div>
-     <img src="{{ "/assets/images/logo-h-aga-social-full.png" | relative_url }}" alt="{{ site.title }} logo" class="h-16 w-auto">
+     <img src="{{ "/assets/images/logo-h-aga-social-full.png" | absolute_url }}" alt="{{ site.title }} logo" class="h-16 w-auto">
      <p style="color: var(--color-primary-dark);">Transformando negocios con tecnología inteligente y soluciones innovadoras.</p>
     </div>
     <div>
